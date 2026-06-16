@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+  <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+  <div class="sidebar-top">
+    <div class="logo">MFUNDO MLABA</div> 
+    <nav class="nav">
+      <a href="index.html"><img src="Pictures/Icons/Home.png" alt="Home Icon" class="icon"> Home</a>
+      <a href="about.html"><img src="Pictures/Icons/About.png" alt="About Icon" class="icon"> About</a>
+      <a href="services.html"><img src="Pictures/Icons/Services-bar.png" alt="Services Icon" class="icon"> Services</a>
+      <a href="portfolio.html"><img src="Pictures/Icons/Portfolio.png" alt="Portfolio Icon" class="icon"> Portfolio</a>
+      <a href="contact.html" class="active"><img src="Pictures/Icons/Contact.png" alt="Mail Icon" class="icon"> Contact</a>
+    </nav>
+  </div>
+  <div class="socials">
+    <a href="https://github.com/Mfundomlaba" target="_blank">
+      <img src="Pictures/Icons/github.png" alt="GitHub" class="icon">
+    </a>
+    <a href="https://www.linkedin.com/in/mfundo-mlaba-16a3392b7" target="_blank">
+      <img src="Pictures/Icons/linkedin.png" alt="LinkedIn" class="icon">
+    </a>
+  </div>
+</aside>
+
+    <!-- Main Content -->
+<main class="main">
+  <div class="contact-container">
+
+    <!-- Left Column -->
+    <div class="left-column">
+      <form id="contact-form" action="https://formspree.io/f/xrbqvbop" method="post" novalidate>
+        <h2 class="contact-heading">Contact Me</h2>
+        <label>
+          <p>Name:</p>
+          <input type="text" name="name" required placeholder="Enter name and Surname">
+        </label>
+        <label>
+          <p>Cell:</p>
+          <input type="tel" name="phone" pattern="\d{10}" maxlength="10" required placeholder="Enter phone number">
+        </label>
+        <label>
+          <p>Email:</p>
+          <input type="email" name="email" required placeholder="Enter email address">
+        </label>
+        <label>
+          <p>Message:</p>
+          <textarea name="message" rows="5" required placeholder="Enter message here"></textarea>
+        </label>
+        <button type="submit">Submit</button>
+        <p id="status-message"></p>
+      </form>
+    </div>
+
+  <!-- Right Column -->
+  <div class="right-column">
+  <!-- Contact Info Card -->
+  <div class="contact-card contact-info">
+    <h2>Get in Touch</h2>
+    <p><strong>Email:</strong> mlabamfundo3@gmail.com</p>
+    <p><strong>Phone:</strong> 012 345 6789</p>
+    <p><strong>Location:</strong> Durban University of Technology, Ritson Campus</p>
+    <p><strong>Hours:</strong> Mon–Fri, 9AM–5PM</p>
+  </div>
+
+  <!-- Map Card -->
+  <div class="contact-card">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d454.5286282866618!2d31.00662738797547!3d-29.850307509256897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7a9e654795375%3A0xe5a2dd40e471ef08!2sDurban%20University%20Of%20Technology%20-%20Ritson%20Campus!5e1!3m2!1sen!2sza!4v1748825829322!5m2!1sen!2sza" 
+      width="100%" 
+      height="100%" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+      </div>
+    </div>
+  </div>
+</main>
+
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>

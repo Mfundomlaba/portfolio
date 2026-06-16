@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Mfundo Mlaba</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+      <div class="sidebar-top">
+        <div class="logo">MFUNDO MLABA</div>
+        <nav class="nav">
+          <a href="index.html"><img src="Pictures/Icons/Home.png" alt="Home Icon" class="icon"> Home</a>
+          <a href="about.html"><img src="Pictures/Icons/About.png" alt="About Icon" class="icon"> About</a>
+          <a href="services.html"><img src="Pictures/Icons/Services-bar.png" alt="Services Icon" class="icon"> Services</a>
+          <a href="portfolio.html" class="active"><img src="Pictures/Icons/Portfolio.png" alt="Portfolio Icon" class="icon"> Portfolio</a>
+          <a href="contact.html"><img src="Pictures/Icons/Contact.png" alt="Mail Icon" class="icon"> Contact</a>
+        </nav>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/Mfundomlaba" target="_blank">
+          <img src="Pictures/Icons/github.png" alt="GitHub" class="icon">
+        </a>
+        <a href="https://www.linkedin.com/in/mfundo-mlaba-16a3392b7" target="_blank">
+          <img src="Pictures/Icons/linkedin.png" alt="LinkedIn" class="icon">
+        </a>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main portfolio-main">
+      <div class="portfolio-container">
+
+        <!-- ── Page Header ─────────────────────────────────────── -->
+        <div class="portfolio-header">
+          <h1 class="portfolio-page-heading">Portfolio</h1>
+          <p class="portfolio-subtitle">A selection of projects I've built.</p>
+        </div>
+
+        <!-- ── Project Grid ───────────────────────────────────── -->
+        <div class="portfolio-grid">
+
+          <!-- ══════════════════════════════════════════════════ -->
+          <!-- Card 1: FundMyFuture                              -->
+          <!-- ══════════════════════════════════════════════════ -->
+          <div class="project-card">
+            <!--
+              THUMBNAIL
+              To add a real screenshot, replace the placeholder tint with:
+              style="background-image: url('Pictures/fundmyfuture.jpg')"
+              on this element.
+            -->
+            <div class="project-thumbnail thumbnail-fundmyfuture" style="background-image: url('Pictures/Project_logos/Fund_My_Future_Logo.png')"></div>
+
+            <div class="project-body">
+              <h3 class="project-title">FundMyFuture</h3>
+
+              <p class="project-description">
+                A scholarship and bursary application tracker for South African students — browse
+                opportunities, apply online, upload documents, and track application status, with an
+                admin portal for managing listings and reviewing applications.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Flask</span>
+                <span class="tag">SQLite</span>
+                <span class="tag">Bootstrap</span>
+                <span class="tag">JavaScript</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://fundmyfuture-tv4q.onrender.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-demo">Live Demo</a>
+                <a href="https://github.com/Mfundomlaba/Fund-My-Future-web-app-"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-github">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!-- /Card 1 -->
+
+
+          <!-- ══════════════════════════════════════════════════ -->
+          <!-- Card 2: Civic-Connect                             -->
+          <!-- ══════════════════════════════════════════════════ -->
+          <div class="project-card">
+            <!--
+              THUMBNAIL
+              To add a real screenshot replace with:
+              style="background-image: url('Pictures/civic-connect.jpg')"
+            -->
+            <div class="project-thumbnail thumbnail-placeholder-a" style="background-image: url('Pictures/Project_logos/Civic_Connect_Logo.png')"></div>
+
+            <div class="project-body">
+              <h3 class="project-title">Civic-Connect</h3>
+
+              <p class="project-description">
+                A mobile app that improves communication between citizens and local authorities —
+                report community issues, join discussions, and receive alerts, all from one
+                centralized platform for citizens and administrators.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">Dart</span>
+                <span class="tag">Python</span>
+                <span class="tag">JavaScript</span>
+              </div>
+
+              <div class="project-links">
+                <span class="deployment-badge">Deployment in progress</span>
+                <a href="https://github.com/Mfundomlaba/Civic-Connect"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-github">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!-- /Card 2 -->
+
+
+          <!-- ══════════════════════════════════════════════════ -->
+          <!-- Card 3: Bele Development Consultants             -->
+          <!-- ══════════════════════════════════════════════════ -->
+          <div class="project-card">
+            <!--
+              THUMBNAIL
+              To add a real screenshot, replace the placeholder tint with:
+              style="background-image: url('Pictures/bele.jpg')"
+              on this element.
+            -->
+            <div class="project-thumbnail thumbnail-placeholder-b" style="background-image: url('Pictures/Project_logos/Bele_Dev_Logo.jpeg')"></div>
+
+            <div class="project-body">
+              <h3 class="project-title">Bele Development Consultants</h3>
+
+              <p class="project-description">
+                A Flask website for a South African construction and project management firm —
+                public pages with an image gallery and lightbox viewer, plus a password-protected
+                admin dashboard for managing gallery images and company settings.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Flask</span>
+                <span class="tag">Bootstrap 5</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Jinja2</span>
+              </div>
+
+              <div class="project-links">
+                <span class="deployment-badge">Deployment in progress</span>
+                <a href="https://github.com/Mfundomlaba/BeleDevelopmentConsultants"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-github">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!-- /Card 3 -->
+
+
+          <!--
+            ══════════════════════════════════════════════════════
+            CARD 4 — TEMPLATE
+            Remove the outer comment tags (this line and the closing
+            tag below) to re-enable. Fill in all UPPERCASE placeholders first.
+            THUMBNAIL: Add  style="background-image: url('Pictures/Project_logos/FILENAME.ext')"
+            to the thumbnail div when a logo is ready.
+            For deployment-pending projects, replace the Live Demo link with:
+            <span class="deployment-badge">Deployment in progress</span>
+            ══════════════════════════════════════════════════════
+          <div class="project-card">
+            <div class="project-thumbnail thumbnail-placeholder-b"></div>
+            <div class="project-body">
+              <h3 class="project-title">PROJECT TITLE</h3>
+              <p class="project-description">
+                One to two sentence description of the project goes here.
+              </p>
+              <div class="project-tags">
+                <span class="tag">TAG</span>
+                <span class="tag">TAG</span>
+                <span class="tag">TAG</span>
+              </div>
+              <div class="project-links">
+                <a href="LIVE_DEMO_URL"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-demo">Live Demo</a>
+                <a href="GITHUB_REPO_URL"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-github">GitHub</a>
+              </div>
+            </div>
+          </div>
+          -->
+
+          <!--
+            ══════════════════════════════════════════════════════
+            CARD 5 — TEMPLATE
+            Remove the outer comment tags (this line and the closing
+            tag below) to re-enable. Fill in all UPPERCASE placeholders first.
+            THUMBNAIL: Add  style="background-image: url('Pictures/Project_logos/FILENAME.ext')"
+            to the thumbnail div when a logo is ready.
+            For deployment-pending projects, replace the Live Demo link with:
+            <span class="deployment-badge">Deployment in progress</span>
+            ══════════════════════════════════════════════════════
+          <div class="project-card">
+            <div class="project-thumbnail thumbnail-placeholder-b"></div>
+            <div class="project-body">
+              <h3 class="project-title">PROJECT TITLE</h3>
+              <p class="project-description">
+                One to two sentence description of the project goes here.
+              </p>
+              <div class="project-tags">
+                <span class="tag">TAG</span>
+                <span class="tag">TAG</span>
+                <span class="tag">TAG</span>
+              </div>
+              <div class="project-links">
+                <a href="LIVE_DEMO_URL"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-demo">Live Demo</a>
+                <a href="GITHUB_REPO_URL"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-github">GitHub</a>
+              </div>
+            </div>
+          </div>
+          -->
+
+          <!--
+            ══════════════════════════════════════════════════════
+            CARD 6 — TEMPLATE
+            Remove the outer comment tags (this line and the closing
+            tag below) to re-enable. Fill in all UPPERCASE placeholders first.
+            THUMBNAIL: Add  style="background-image: url('Pictures/Project_logos/FILENAME.ext')"
+            to the thumbnail div when a logo is ready.
+            For deployment-pending projects, replace the Live Demo link with:
+            <span class="deployment-badge">Deployment in progress</span>
+            ══════════════════════════════════════════════════════
+          <div class="project-card">
+            <div class="project-thumbnail thumbnail-placeholder-b"></div>
+            <div class="project-body">
+              <h3 class="project-title">PROJECT TITLE</h3>
+              <p class="project-description">
+                One to two sentence description of the project goes here.
+              </p>
+              <div class="project-tags">
+                <span class="tag">TAG</span>
+                <span class="tag">TAG</span>
+                <span class="tag">TAG</span>
+              </div>
+              <div class="project-links">
+                <a href="LIVE_DEMO_URL"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-demo">Live Demo</a>
+                <a href="GITHUB_REPO_URL"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-github">GitHub</a>
+              </div>
+            </div>
+          </div>
+          -->
+
+          <!--
+            ══════════════════════════════════════════════════════
+            CARD 7 — TEMPLATE
+            Remove the outer comment tags (this line and the closing
+            tag below) to re-enable. Fill in all UPPERCASE placeholders first.
+            THUMBNAIL: Add  style="background-image: url('Pictures/Project_logos/FILENAME.ext')"
+            to the thumbnail div when a logo is ready.
+            For deployment-pending projects, replace the Live Demo link with:
+            <span class="deployment-badge">Deployment in progress</span>
+            ══════════════════════════════════════════════════════
+          <div class="project-card">
+            <div class="project-thumbnail thumbnail-placeholder-b"></div>
+            <div class="project-body">
+              <h3 class="project-title">PROJECT TITLE</h3>
+              <p class="project-description">
+                One to two sentence description of the project goes here.
+              </p>
+              <div class="project-tags">
+                <span class="tag">TAG</span>
+                <span class="tag">TAG</span>
+                <span class="tag">TAG</span>
+              </div>
+              <div class="project-links">
+                <a href="LIVE_DEMO_URL"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-demo">Live Demo</a>
+                <a href="GITHUB_REPO_URL"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-github">GitHub</a>
+              </div>
+            </div>
+          </div>
+          -->
+
+          <!--
+            ══════════════════════════════════════════════════════
+            CARD 8 — TEMPLATE
+            Remove the outer comment tags (this line and the closing
+            tag below) to re-enable. Fill in all UPPERCASE placeholders first.
+            THUMBNAIL: Add  style="background-image: url('Pictures/Project_logos/FILENAME.ext')"
+            to the thumbnail div when a logo is ready.
+            For deployment-pending projects, replace the Live Demo link with:
+            <span class="deployment-badge">Deployment in progress</span>
+            ══════════════════════════════════════════════════════
+          <div class="project-card">
+            <div class="project-thumbnail thumbnail-placeholder-b"></div>
+            <div class="project-body">
+              <h3 class="project-title">PROJECT TITLE</h3>
+              <p class="project-description">
+                One to two sentence description of the project goes here.
+              </p>
+              <div class="project-tags">
+                <span class="tag">TAG</span>
+                <span class="tag">TAG</span>
+                <span class="tag">TAG</span>
+              </div>
+              <div class="project-links">
+                <a href="LIVE_DEMO_URL"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-demo">Live Demo</a>
+                <a href="GITHUB_REPO_URL"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-github">GitHub</a>
+              </div>
+            </div>
+          </div>
+          -->
+
+          <!--
+            ══════════════════════════════════════════════════════
+            CARD 9 — TEMPLATE
+            Remove the outer comment tags (this line and the closing
+            tag below) to re-enable. Fill in all UPPERCASE placeholders first.
+            THUMBNAIL: Add  style="background-image: url('Pictures/Project_logos/FILENAME.ext')"
+            to the thumbnail div when a logo is ready.
+            For deployment-pending projects, replace the Live Demo link with:
+            <span class="deployment-badge">Deployment in progress</span>
+            ══════════════════════════════════════════════════════
+          <div class="project-card">
+            <div class="project-thumbnail thumbnail-placeholder-b"></div>
+            <div class="project-body">
+              <h3 class="project-title">PROJECT TITLE</h3>
+              <p class="project-description">
+                One to two sentence description of the project goes here.
+              </p>
+              <div class="project-tags">
+                <span class="tag">TAG</span>
+                <span class="tag">TAG</span>
+                <span class="tag">TAG</span>
+              </div>
+              <div class="project-links">
+                <a href="LIVE_DEMO_URL"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-demo">Live Demo</a>
+                <a href="GITHUB_REPO_URL"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-btn-github">GitHub</a>
+              </div>
+            </div>
+          </div>
+          -->
+
+        </div>
+        <!-- /portfolio-grid -->
+
+      </div>
+      <!-- /portfolio-container -->
+    </main>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
